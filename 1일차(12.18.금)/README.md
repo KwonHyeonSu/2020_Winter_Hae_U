@@ -22,29 +22,31 @@ Terrain 키보드 단축기
 1. 이웃 Terrain을 만들어 지형의 크기를 늘려줍니다.    
 </br>
 
-> <img src = "../Img/T3.png" width = "300">  
-> <img src = "../Img/T4.png" width = "300">  
+> <img src = "../Img/T3.png" width = "300">    
 
-//clamp와 mirror의 차이  
+> <img src = "../Img/T4.png" width = "300">    
+
+//clamp와 mirror의 차이   
 //Terrain설정에서 타일간연결해제      
 
-> <img src = "../Img/T5.png" width = "300">  
-1. Raise or Lower Terrain : 페인트 툴 
+> <img src = "../Img/T5.png" width = "300">   
+
+1. Raise or Lower Terrain : 페인트 툴   
 2. Paint Holes : 터레인의 일부를 숨김   
-3. Set Height : 하이트맵을 특정 값으로 조정  
-4. Smooth Height: 지형 매끄럽게  
-5. Stamp Terrain : 지형에 스탬프      
+3. Set Height : 하이트맵을 특정 값으로 조정   
+4. Smooth Height: 지형 매끄럽게    
+5. Stamp Terrain : 지형에 스탬프       
 
 
-마우스 좌클릭 : 지형 높이 상승    
-마우스 좌클릭 + Shift : 지형 높이 하강    
-> <img src = "../Img/T6.png" width = "300">  
+마우스 좌클릭 : 지형 높이 상승     
+마우스 좌클릭 + Shift : 지형 높이 하강     
+> <img src = "../Img/T6.png" width = "300">    
    
       
 
-Terrain 최대 높이 조절  
-> <img src = "../Img/T7.png" width = "300">  
-> <img src = "../Img/T8.png" width = "300">  
+Terrain 최대 높이 조절   
+> <img src = "../Img/T7.png" width = "300">   
+> <img src = "../Img/T8.png" width = "300">   
 
 
 
