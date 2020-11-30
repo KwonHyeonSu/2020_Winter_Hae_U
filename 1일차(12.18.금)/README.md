@@ -22,31 +22,34 @@ Terrain 키보드 단축기
 1. 이웃 Terrain을 만들어 지형의 크기를 늘려줍니다.    
 </br>
 
-> <img src = "../Img/T3.png" width = "300">    
+> <img src = "../Img/T3.png" width = "300">     
 
-> <img src = "../Img/T4.png" width = "300">    
+> <img src = "../Img/T4.png" width = "300">     
 
-//clamp와 mirror의 차이   
+//clamp와 mirror의 차이    
 //Terrain설정에서 타일간연결해제      
 
-> <img src = "../Img/T5.png" width = "300">   
+> <img src = "../Img/T5.png" width = "300">    
+ 
+1. Raise or Lower Terrain : 페인트 툴     
+2. Paint Holes : 터레인의 일부를 숨김    
+3. Set Height : 하이트맵을 특정 값으로 조정    
+4. Smooth Height: 지형 매끄럽게     
+5. Stamp Terrain : 지형에 스탬프        
 
-1. Raise or Lower Terrain : 페인트 툴   
-2. Paint Holes : 터레인의 일부를 숨김   
-3. Set Height : 하이트맵을 특정 값으로 조정   
-4. Smooth Height: 지형 매끄럽게    
-5. Stamp Terrain : 지형에 스탬프       
 
+마우스 좌클릭 : 지형 높이 상승      
+마우스 좌클릭 + Shift : 지형 높이 하강      
 
-마우스 좌클릭 : 지형 높이 상승     
-마우스 좌클릭 + Shift : 지형 높이 하강     
-> <img src = "../Img/T6.png" width = "300">    
+> <img src = "../Img/T6.png" width = "300">     
    
       
 
 Terrain 최대 높이 조절   
-> <img src = "../Img/T7.png" width = "300">   
-> <img src = "../Img/T8.png" width = "300">   
+
+> <img src = "../Img/T7.png" width = "300">    
+
+> <img src = "../Img/T8.png" width = "300">     
 
 
 
@@ -61,23 +64,34 @@ Terrain 최대 높이 조절
  Camera를 조정하여 플레이어를 위에서 비스듬히 내려다 볼 수 있게 세팅을 완료합니다.
 
 >   **단축키**
-> Q : 화면 이동 or 마우스 휠 클릭  
-> W : Object 이동  
-> (빨간선 : x축, 초록선 : y축, 파란선 : z축)  
+
+> Q : 화면 이동 or 마우스 휠 클릭   
+
+> W : Object 이동   
+
+> (빨간선 : x축, 초록선 : y축, 파란선 : z축)    
+
 > <img src = "../Img/3.PNG" width = "300">    
-> E : Object 회전  
-> <img src = "../Img/4.PNG" width = "300">    
-> R : 오브젝트 크기 조절  
-> <img src = "../Img/5.PNG" width = "300">   
-> T : 오브젝트 평면 크기 조절  
-> <img src = "../Img/6.PNG" width = "300">    
-<br>
+
+> E : Object 회전   
+
+> <img src = "../Img/4.PNG" width = "300">     
+
+> R : 오브젝트 크기 조절   
+
+> <img src = "../Img/5.PNG" width = "300">    
+
+> T : 오브젝트 평면 크기 조절   
+
+> <img src = "../Img/6.PNG" width = "300">     
+
+<br>   
 
 
-PlayerMoveController.cs 스크립트를 만들고 Player에게 적용시킵니다.  
-
-<img src = "../Img/1.PNG" width = "800">  
-
+PlayerMoveController.cs 스크립트를 만들고 Player에게 적용시킵니다.   
+ 
+<img src = "../Img/1.PNG" width = "800">    
+ 
 ```C#
 using System.Collections;
 using System.Collections.Generic;
@@ -134,31 +148,31 @@ public class CameraController : MonoBehaviour
 }
 ```
 
-카메라가 플레이어를 잘 따라가는지 확인해봅니다.
+카메라가 플레이어를 잘 따라가는지 확인해봅니다. 
 
--> cameraSpeed를 Inspector상에서 조정함으로서 게임 중에 적절한 카메라 속도를 찾을 수 있습니다.
+-> cameraSpeed를 Inspector상에서 조정함으로서 게임 중에 적절한 카메라 속도를 찾을 수 있습니다.   
 
-<img src = "../Img/2.PNG" width = "300">  
+<img src = "../Img/2.PNG" width = "300">    
 
->   참고 : "Horizontal"값과 "Vertical"값은 유니티 내에서 매크로로 정해두고 있는 값입니다. (Edit->Project Setting)
-<img src = "../Img/7.PNG" width = "300">  
+>   참고 : "Horizontal"값과 "Vertical"값은 유니티 내에서 매크로로 정해두고 있는 값입니다. (Edit->Project Setting)  
+<img src = "../Img/7.PNG" width = "300">    
 
-Player에게 간단한 얼굴을 만들어 줬습니다.
+Player에게 간단한 얼굴을 만들어 줬습니다.   
 
-<img src = "../Img/8.PNG" width = "400">
+<img src = "../Img/8.PNG" width = "400">   
 
-RigidBody와 Capsule Collider 컴포넌트를 추가해 줍니다.
-
-<img src = "../Img/10.PNG" width = "400">
-<br><br><br>
+RigidBody와 Capsule Collider 컴포넌트를 추가해 줍니다.  
+  
+<img src = "../Img/10.PNG" width = "400">   
+<br><br><br> 
 
 But,
--> 캐릭터가 넘어지는 상황 발생 !
+-> 캐릭터가 넘어지는 상황 발생 !   
 
-<img src = "../Img/9.PNG" width = "400">
+<img src = "../Img/9.PNG" width = "400">    
 
-Freeze Rotation 기능을 활용하여 일단 넘어지지 않게 설정해줍니다.
-<img src = "../Img/11.PNG" width = "400">
+Freeze Rotation 기능을 활용하여 일단 넘어지지 않게 설정해줍니다.   
+<img src = "../Img/11.PNG" width = "400">   
 
 
 ### Jump 구현
