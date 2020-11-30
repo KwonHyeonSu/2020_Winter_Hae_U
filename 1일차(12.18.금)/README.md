@@ -1,50 +1,50 @@
-# 2020_Winter_Hae_U
+# 2020_Winter_Hae_U  
 
-Terrain에 대해 배워봅시다.
+Terrain에 대해 배워봅시다.  
 
 Terrain은 지형,나무,잔디등의 풍경을 만드는 내장 셋입니다.    
 
-> GameObject > 3D Object > Terrain
-> <img src = "../Img/T1.png" width = "300">
-> <img src = "../Img/T2.png" width = "300">
-> 1. 인접한 Terrain 타일 만들기
-> 2. Terrain을 만들고 페인팅
-> 3. 나무
-> 4. 풀,꽃,돌
-> 5. Terrain 설정
+> GameObject > 3D Object > Terrain  
+> <img src = "../Img/T1.png" width = "300">   
+> <img src = "../Img/T2.png" width = "300">   
+> 1. 인접한 Terrain 타일 만들기   
+> 2. Terrain을 만들고 페인팅   
+> 3. 나무  
+> 4. 풀,꽃,돌  
+> 5. Terrain 설정  
 
-Terrain 키보드 단축기
-> - , 와 . : 브러쉬를 좌,우로 순환하며 바꿔줌
-> - [ 와 ] : 브러쉬 크기 조절
-> - &#45; 와 = : 브러쉬의 불투명도 조절  
+Terrain 키보드 단축기    
+> - , 와 . : 브러쉬를 좌,우로 순환하며 바꿔줌    
+> - [ 와 ] : 브러쉬 크기 조절   
+> - &#45; 와 = : 브러쉬의 불투명도 조절       
 
 </br>
-1. 이웃 Terrain을 만들어 지형의 크기를 늘려줍니다.  
+1. 이웃 Terrain을 만들어 지형의 크기를 늘려줍니다.    
 </br>
 
-> <img src = "../Img/T3.png" width = "300">
-> <img src = "../Img/T4.png" width = "300">
+> <img src = "../Img/T3.png" width = "300">  
+> <img src = "../Img/T4.png" width = "300">  
 
-//clamp와 mirror의 차이
-//Terrain설정에서 타일간연결해제    
+//clamp와 mirror의 차이  
+//Terrain설정에서 타일간연결해제      
 
-> <img src = "../Img/T5.png" width = "300">
-1. Raise or Lower Terrain : 페인트 툴
-2. Paint Holes : 터레인의 일부를 숨김 
-3. Set Height : 하이트맵을 특정 값으로 조정
-4. Smooth Height: 지형 매끄럽게
-5. Stamp Terrain : 지형에 스탬프    
+> <img src = "../Img/T5.png" width = "300">  
+1. Raise or Lower Terrain : 페인트 툴 
+2. Paint Holes : 터레인의 일부를 숨김   
+3. Set Height : 하이트맵을 특정 값으로 조정  
+4. Smooth Height: 지형 매끄럽게  
+5. Stamp Terrain : 지형에 스탬프      
 
 
-마우스 좌클릭 : 지형 높이 상승   
-마우스 좌클릭 + Shift : 지형 높이 하강   
-> <img src = "../Img/T6.png" width = "300">
+마우스 좌클릭 : 지형 높이 상승    
+마우스 좌클릭 + Shift : 지형 높이 하강    
+> <img src = "../Img/T6.png" width = "300">  
    
       
 
-Terrain 최대 높이 조절
-> <img src = "../Img/T7.png" width = "300">
-> <img src = "../Img/T8.png" width = "300">
+Terrain 최대 높이 조절  
+> <img src = "../Img/T7.png" width = "300">  
+> <img src = "../Img/T8.png" width = "300">  
 
 
 
@@ -59,20 +59,20 @@ Terrain 최대 높이 조절
  Camera를 조정하여 플레이어를 위에서 비스듬히 내려다 볼 수 있게 세팅을 완료합니다.
 
 >   **단축키**
-> Q : 화면 이동 or 마우스 휠 클릭
-> W : Object 이동
-> (빨간선 : x축, 초록선 : y축, 파란선 : z축)
-> <img src = "../Img/3.PNG" width = "300">  
-> E : Object 회전
-> <img src = "../Img/4.PNG" width = "300">  
-> R : 오브젝트 크기 조절
-> <img src = "../Img/5.PNG" width = "300">  
-> T : 오브젝트 평면 크기 조절
-> <img src = "../Img/6.PNG" width = "300">  
+> Q : 화면 이동 or 마우스 휠 클릭  
+> W : Object 이동  
+> (빨간선 : x축, 초록선 : y축, 파란선 : z축)  
+> <img src = "../Img/3.PNG" width = "300">    
+> E : Object 회전  
+> <img src = "../Img/4.PNG" width = "300">    
+> R : 오브젝트 크기 조절  
+> <img src = "../Img/5.PNG" width = "300">   
+> T : 오브젝트 평면 크기 조절  
+> <img src = "../Img/6.PNG" width = "300">    
 <br>
 
 
-PlayerMoveController.cs 스크립트를 만들고 Player에게 적용시킵니다.
+PlayerMoveController.cs 스크립트를 만들고 Player에게 적용시킵니다.  
 
 <img src = "../Img/1.PNG" width = "800">  
 
