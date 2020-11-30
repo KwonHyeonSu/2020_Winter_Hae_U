@@ -29,7 +29,7 @@
  * 게임 실행 영상(https://www.youtube.com/watch?v=sYgiWUvvGiQ)
  * 관련사진
  
- ![로고](Img/rc1.PNG)![로고](Img/rc2.PNG)
+ ![로고](Img/rc1.png)![로고](Img/rc2.png)
  
  
 # 활동내용[업사이드다운]
@@ -41,7 +41,7 @@
  * 게임 다운로드 링크(https://play.google.com/store/apps/details?id=com.CHHO.UPSIDEDOWN)
  * 관련사진.
  
- ![로고](Img/ud2.PNG)![로고](Img/ud3.PNG)
+ ![로고](Img/ud2.png)![로고](Img/ud3.png)
  
 
 [OT - 유니티 설치](Export-6e488096-b9e5-4cc8-867d-0c79d35cdff7/OT_81b96587fcb74b5e8a4027315c679d39.md)  
